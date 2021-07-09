@@ -1,13 +1,11 @@
-package Api.Login.Repository;
+package Api.Login.Repository.User;
 
 import Api.Login.Domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
-import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 
 import javax.sql.DataSource;
-import javax.xml.crypto.Data;
 import java.util.*;
 
 public class JdbcTempleteUserRepository implements UserRepository {

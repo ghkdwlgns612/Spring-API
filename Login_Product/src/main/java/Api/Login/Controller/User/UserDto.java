@@ -1,4 +1,4 @@
-package Api.Login.Controller;
+package Api.Login.Controller.User;
 
 import lombok.Getter;
 import lombok.Setter;

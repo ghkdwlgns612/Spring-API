@@ -1,11 +1,8 @@
-package Api.Login.Repository;
+package Api.Login.Repository.User;
 
 import Api.Login.Domain.User;
 
-import java.lang.reflect.Member;
 import java.util.*;
-
-import static java.util.Optional.ofNullable;
 
 public class MemoryUserRepository implements UserRepository{
 

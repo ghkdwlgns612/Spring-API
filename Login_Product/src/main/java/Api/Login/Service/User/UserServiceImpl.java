@@ -1,7 +1,7 @@
-package Api.Login.Service;
+package Api.Login.Service.User;
 
 import Api.Login.Domain.User;
-import Api.Login.Repository.UserRepository;
+import Api.Login.Repository.User.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -16,21 +16,6 @@ public class UserServiceImpl implements UserService{
     public UserServiceImpl(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
-
-//    @Override
-//    public String CheckLogin(User user) {
-//        Optional<User> comparedb = userRepository.findByName(user.getName());
-//        String dbName = comparedb.get().getName();
-//        String dbPasswd = comparedb.get().getPasswd();
-//        if (user.getName().equals(dbName)){
-//            if (user.getPasswd().equals(dbPasswd))
-//                return "success";
-//            else
-//                return "fail : cannot find password";
-//        }
-//        else
-//            return "fail : cannot find id";
-//    }
 
     @Override
     public String CheckLogin(User user) {

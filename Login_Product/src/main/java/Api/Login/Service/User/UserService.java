@@ -1,4 +1,4 @@
-package Api.Login.Service;
+package Api.Login.Service.User;
 
 import Api.Login.Domain.User;
 

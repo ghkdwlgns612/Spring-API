@@ -1,4 +1,4 @@
-package Api.Login.Repository;
+package Api.Login.Repository.User;
 
 import Api.Login.Domain.User;
 
