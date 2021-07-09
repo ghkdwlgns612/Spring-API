@@ -70,7 +70,7 @@ public class UserController {
         List<User> res = userService.findUsers();
         return res;
     }
-    @GetMapping(value = "/list")
+    @GetMapping(value = "/log")
     @ResponseBody
     public List<Log> receiveList() {
         List<Log> res = logService.findLogs();
